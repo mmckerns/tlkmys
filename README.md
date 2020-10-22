@@ -40,13 +40,10 @@ the following packages must be installed::
     matplotlib >= 2.2.2,
     sklearn >= 0.20.0,
     dill >= 0.2.9,
-    pyina >= 0.2.1
+    pyina >= 0.2.1,
+    pathos >= 0.2.6,
     klepto >= 0.1.6,
-    mystic >= 0.3.3
-
-and optionally::
-
-    pathos >= 0.2.3
+    mystic >= 0.3.6
 
 
 Installation
@@ -59,13 +56,9 @@ All packages can be installed with `pip`::
     >$ pip install matplotlib
     >$ pip install sklearn
     >$ pip install pyina
+    >$ pip install pathos
     >$ pip install klepto
     >$ pip install mystic
-
-
-and optionally::
-
-    >$ pip install pathos
 
 
 The `pip` installs of `numpy`, `matplotlib`, and `sklearn` often fail.
